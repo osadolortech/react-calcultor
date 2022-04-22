@@ -17,7 +17,14 @@ const App = () =>{
     }
 
     const evaluate = () =>{
+
+        try{
         setResult(eval(result).toString())
+        }
+        
+        catch(err){
+            setResult("")
+        }
     }
    
     return(

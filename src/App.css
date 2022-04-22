@@ -10,11 +10,10 @@ body{
     background: rgba(68, 8, 102, 0.226);
 }
 .container{
-    top: 50%;
+    top: 50px;
     left: 50%;
     position: relative;
-    margin: 0 auto;
-    width: 265px;
+    width: 260px;
     text-align: center;
     justify-content: center;
     border: 10px solid rgba(18, 114, 143, 0.466);
